@@ -2,13 +2,14 @@
 {
     public class Order
     {
-        public string Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string CustomerName { get; set; }
-        public string Address { get; set; }
-        public string Phone { get; set; }
-        public decimal Amount { get; set; }
-        public DateTime Date { get; set; }
-        public string Status { get; set; }
-        public List<OrderItem> Items { get; set; }
+        public string CustomerEmail { get; set; }
+        public string CustomerPhone { get; set; }
+        public string CustomerAddress { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string Status { get; set; } = "Confirmed";
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public List<OrderItem> Items { get; set; } = new();
     }
 }

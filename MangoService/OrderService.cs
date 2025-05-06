@@ -6,45 +6,62 @@ namespace MangoApi.MangoService
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
+        private static readonly Dictionary<string, OrderResponse> _orders = new Dictionary<string, OrderResponse>();
 
+        private readonly ILogger<OrderService> _logger;
         public OrderService(IOrderRepository orderRepository)
         {
             _orderRepository = orderRepository;
         }
 
-        public Task<IEnumerable<Order>> GetAllOrdersAsync()
+        public async Task<OrderResponse> ProcessOrderAsync(OrderRequest orderRequest)
         {
-            return _orderRepository.GetAllOrdersAsync();
+            var order = new Order
+            {
+                CustomerName = orderRequest.CustomerInfo.Name,
+                CustomerEmail = orderRequest.CustomerInfo.Email,
+                CustomerPhone = orderRequest.CustomerInfo.Phone,
+                CustomerAddress = orderRequest.CustomerInfo.Address,
+                TotalAmount = orderRequest.TotalAmount,
+                Items = orderRequest.Items.Select(item => new OrderItem
+                {
+                    ProductId = item.ProductId,
+                    ProductName = item.ProductName,
+                    Price = item.Price,
+                    Quantity = item.Quantity
+                }).ToList()
+            };
+
+            var savedOrder = await _orderRepository.CreateOrderAsync(order);
+
+            return new OrderResponse
+            {
+                OrderId = savedOrder.Id,
+                Status = savedOrder.Status,
+                EstimatedDelivery = order.CreatedAt.AddHours(24),
+                TotalAmount = savedOrder.TotalAmount,
+                Message = "Your order has been confirmed. Payment will be collected upon delivery."
+            };
         }
 
-        public Task<Order> GetOrderByIdAsync(string id)
+        public async Task<List<Order>> GetOrdersAsync()
         {
-            return _orderRepository.GetOrderByIdAsync(id);
+            return await _orderRepository.GetAllOrdersAsync();
         }
 
-        public Task<Order> CreateOrderAsync(Order order)
+        public async Task<Order> GetOrderByIdAsync(string id)
         {
-            return _orderRepository.CreateOrderAsync(order);
+            return await _orderRepository.GetOrderByIdAsync(id);
         }
 
-        public Task<Order> UpdateOrderAsync(string id, Order order)
+        public async Task<bool> UpdateOrderStatusAsync(string id, string newStatus)
         {
-            return _orderRepository.UpdateOrderAsync(id, order);
-        }
+            var order = await _orderRepository.GetByIdAsync(id);
+            if (order == null)
+                return false;
 
-        public Task UpdateOrderStatusAsync(string id, string status)
-        {
-            return _orderRepository.UpdateOrderStatusAsync(id, status);
-        }
-
-        public Task DeleteOrderAsync(string id)
-        {
-            return _orderRepository.DeleteOrderAsync(id);
-        }
-
-        public Task<IEnumerable<Order>> GetOrdersByCustomerAsync(string customerId)
-        {
-            return _orderRepository.GetOrdersByCustomerAsync(customerId);
+            await _orderRepository.UpdateStatusAsync(order, newStatus);
+            return true;
         }
     }
 }

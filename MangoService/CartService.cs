@@ -49,8 +49,9 @@ namespace MangoApi.MangoService
                 });
             }
 
-            if (string.IsNullOrEmpty(cart.Id))
+            if (cart.GuidId == Guid.Empty)
             {
+                cart.GuidId = Guid.NewGuid(); // Optional: assign here before adding
                 await _cartRepository.AddCartAsync(cart);
             }
             else

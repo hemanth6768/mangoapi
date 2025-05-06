@@ -1,0 +1,10 @@
+.vs/
+*.user
+*.suo
+*.log
+*.vsidx
+bin/
+obj/
+node_modules/
+.vscode/
+TestResults/

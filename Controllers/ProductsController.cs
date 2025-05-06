@@ -1,6 +1,8 @@
-﻿using MangoApi.MangoModels;
+﻿using MangoApi.AppContext;
+using MangoApi.MangoModels;
 using MangoApi.MangoService;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace MangoApi.Controllers
 {
@@ -9,10 +11,25 @@ namespace MangoApi.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
-
-        public ProductsController(IProductService productService)
+        private readonly AppDbContext _context;
+        public ProductsController(IProductService productService, AppDbContext context)
         {
             _productService = productService;
+            _context = context; 
+        }
+
+        [HttpPost("addproduct")]
+        public async Task<IActionResult> AddProduct([FromBody] Product product)
+        {
+            if (product == null)
+                return BadRequest("Invalid product");
+
+            product.Id = Guid.NewGuid().ToString();  // generate a unique ID
+
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
 
         [HttpGet]

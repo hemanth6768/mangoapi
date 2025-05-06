@@ -22,8 +22,14 @@ namespace MangoApi.MangoRepositoiry
 
         public async Task AddCartAsync(Cart cart)
         {
-            _context.Carts.Add(cart);
-            await _context.SaveChangesAsync();
+            // Check if the cart Id is not set, then generate a new GUID for it
+            if (cart.GuidId == Guid.Empty)
+            {
+                cart.GuidId = Guid.NewGuid();
+            }
+
+            _context.Carts.Add(cart);  // Add the cart to the DbContext
+            await _context.SaveChangesAsync();  // Save changes to the database
         }
 
         public async Task UpdateCartAsync(Cart cart)

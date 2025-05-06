@@ -1,9 +1,11 @@
 ﻿using MangoApi.MangoModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace MangoApi.AppContext
 {
-    public class AppDbContext : DbContext 
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -21,6 +23,14 @@ namespace MangoApi.AppContext
 
             // Optional: Customize entity configurations
 
+
+            modelBuilder.Entity<IdentityUserLogin<string>>().HasKey(p => p.UserId);
+
+            modelBuilder.Entity<IdentityUserRole<string>>()
+           .HasKey(p => new { p.UserId, p.RoleId });
+
+
+            modelBuilder.Entity<IdentityUserToken<string>>().HasKey(p => p.UserId);
             modelBuilder.Entity<Cart>()
                 .HasMany(c => c.Items)
                 .WithOne()
@@ -30,6 +40,21 @@ namespace MangoApi.AppContext
                 .HasMany(o => o.Items)
                 .WithOne()
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Cart>()
+            .HasKey(c => c.GuidId);
+
+            modelBuilder.Entity<Cart>()
+            .Property(c => c.GuidId)
+            .IsRequired();
+
+            modelBuilder.Entity<Cart>()
+            .Property(c => c.GuidId)
+            .HasDefaultValueSql("NEWID()");
+
+
+            modelBuilder.Entity<CartItem>()
+           .HasKey(c => c.ProductId);
         }
     }
 }

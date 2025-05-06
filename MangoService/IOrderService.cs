@@ -4,12 +4,10 @@ namespace MangoApi.MangoService
 {
     public interface IOrderService
     {
-        Task<IEnumerable<Order>> GetAllOrdersAsync();
+        Task<OrderResponse> ProcessOrderAsync(OrderRequest orderRequest);
+        Task<List<Order>> GetOrdersAsync();
         Task<Order> GetOrderByIdAsync(string id);
-        Task<Order> CreateOrderAsync(Order order);
-        Task<Order> UpdateOrderAsync(string id, Order order);
-        Task UpdateOrderStatusAsync(string id, string status);
-        Task DeleteOrderAsync(string id);
-        Task<IEnumerable<Order>> GetOrdersByCustomerAsync(string customerId);
+
+        Task<bool> UpdateOrderStatusAsync(string id, string newStatus);
     }
 }
