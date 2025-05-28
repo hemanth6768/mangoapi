@@ -1,25 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\New folder\\MangoApi\\",
+  "WorkspaceRootPath": "C:\\mangoapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|d:\\new folder\\mangoapi\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\orderitemdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\orderitemdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangorepositoiry\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangorepositoiry\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangorepositoiry\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangorepositoiry\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangorepositoiry\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangorepositoiry\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangoservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangoservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangoservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangoservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\mangoapi\\.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\migrations\\20250527145050_addedappartmentname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:migrations\\20250527145050_addedappartmentname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\migrations\\20250515134222_initialcommit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:migrations\\20250515134222_initialcommit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\migrations\\20250515134222_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:migrations\\20250515134222_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\migrations\\20250527145050_addedappartmentname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:migrations\\20250527145050_addedappartmentname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|d:\\new folder\\mangoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|d:\\new folder\\mangoapi\\mangomodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|d:\\new folder\\mangoapi\\mangomodels\\userresetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\userresetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\userresetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|d:\\new folder\\mangoapi\\mangomodels\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|c:\\mangoapi\\mangomodels\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F742DE0-273C-44D7-9FDA-71C6B1B33425}|MangoApi.csproj|solutionrelative:mangomodels\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,72 +122,359 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\New folder\\MangoApi\\MangoModels\\UserModel.cs",
-              "RelativeDocumentMoniker": "MangoModels\\UserModel.cs",
-              "ToolTip": "D:\\New folder\\MangoApi\\MangoModels\\UserModel.cs",
-              "RelativeToolTip": "MangoModels\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:32:09.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserResetPasswordRequest.cs",
-              "DocumentMoniker": "D:\\New folder\\MangoApi\\MangoModels\\UserResetPasswordRequest.cs",
-              "RelativeDocumentMoniker": "MangoModels\\UserResetPasswordRequest.cs",
-              "ToolTip": "D:\\New folder\\MangoApi\\MangoModels\\UserResetPasswordRequest.cs",
-              "RelativeToolTip": "MangoModels\\UserResetPasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "MangoRepositoiry\\IProductRepository.cs",
+              "ToolTip": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
+              "RelativeToolTip": "MangoRepositoiry\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:31:03.633Z",
+              "WhenOpened": "2025-05-28T07:22:05.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRoleDto.cs",
-              "DocumentMoniker": "D:\\New folder\\MangoApi\\MangoModels\\UserRoleDto.cs",
-              "RelativeDocumentMoniker": "MangoModels\\UserRoleDto.cs",
-              "ToolTip": "D:\\New folder\\MangoApi\\MangoModels\\UserRoleDto.cs",
-              "RelativeToolTip": "MangoModels\\UserRoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "MangoService\\IOrderService.cs",
+              "ToolTip": "C:\\mangoapi\\MangoService\\IOrderService.cs",
+              "RelativeToolTip": "MangoService\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:30:22.598Z",
+              "WhenOpened": "2025-05-28T07:18:56.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\New folder\\MangoApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\New folder\\MangoApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAArwBAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoRepositoiry\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "MangoRepositoiry\\IOrderRepository.cs",
+              "ToolTip": "C:\\mangoapi\\MangoRepositoiry\\IOrderRepository.cs",
+              "RelativeToolTip": "MangoRepositoiry\\IOrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:29:20.667Z",
+              "WhenOpened": "2025-05-28T07:17:35.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderItemDetailDto.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\OrderItemDetailDto.cs",
+              "RelativeDocumentMoniker": "MangoModels\\OrderItemDetailDto.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\OrderItemDetailDto.cs",
+              "RelativeToolTip": "MangoModels\\OrderItemDetailDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:15:07.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoRepositoiry\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "MangoRepositoiry\\OrderRepository.cs",
+              "ToolTip": "C:\\mangoapi\\MangoRepositoiry\\OrderRepository.cs",
+              "RelativeToolTip": "MangoRepositoiry\\OrderRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:56:45.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoService\\OrderService.cs",
+              "RelativeDocumentMoniker": "MangoService\\OrderService.cs",
+              "ToolTip": "C:\\mangoapi\\MangoService\\OrderService.cs",
+              "RelativeToolTip": "MangoService\\OrderService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIAwwDcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:45:17.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\mangoapi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:46:27.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\mangoapi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\mangoapi\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:39:19.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MangoApi.http",
+              "DocumentMoniker": "C:\\mangoapi\\MangoApi.http",
+              "RelativeDocumentMoniker": "MangoApi.http",
+              "ToolTip": "C:\\mangoapi\\MangoApi.http",
+              "RelativeToolTip": "MangoApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-28T06:03:41.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\Order.cs",
+              "RelativeDocumentMoniker": "MangoModels\\Order.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\Order.cs",
+              "RelativeToolTip": "MangoModels\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:44:02.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\OrderItem.cs",
+              "RelativeDocumentMoniker": "MangoModels\\OrderItem.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\OrderItem.cs",
+              "RelativeToolTip": "MangoModels\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:43:24.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\mangoapi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\mangoapi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T06:27:33.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dotnet-tools.json",
+              "DocumentMoniker": "C:\\mangoapi\\.config\\dotnet-tools.json",
+              "RelativeDocumentMoniker": ".config\\dotnet-tools.json",
+              "ToolTip": "C:\\mangoapi\\.config\\dotnet-tools.json",
+              "RelativeToolTip": ".config\\dotnet-tools.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T06:11:56.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\mangoapi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwDIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:28:50.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250515134222_initialcommit.Designer.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Migrations\\20250515134222_initialcommit.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250515134222_initialcommit.Designer.cs",
+              "ToolTip": "C:\\mangoapi\\Migrations\\20250515134222_initialcommit.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250515134222_initialcommit.Designer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowEIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:28:45.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\mangoapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\mangoapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T13:39:36.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250527145050_addedappartmentname.Designer.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Migrations\\20250527145050_addedappartmentname.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250527145050_addedappartmentname.Designer.cs",
+              "ToolTip": "C:\\mangoapi\\Migrations\\20250527145050_addedappartmentname.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250527145050_addedappartmentname.Designer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowEIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:28:49.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\mangoapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:39:33.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerInfo.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\CustomerInfo.cs",
+              "RelativeDocumentMoniker": "MangoModels\\CustomerInfo.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\CustomerInfo.cs",
+              "RelativeToolTip": "MangoModels\\CustomerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:43:50.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderItemRequest.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\OrderItemRequest.cs",
+              "RelativeDocumentMoniker": "MangoModels\\OrderItemRequest.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\OrderItemRequest.cs",
+              "RelativeToolTip": "MangoModels\\OrderItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:43:32.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MangoApi",
+              "DocumentMoniker": "C:\\mangoapi\\MangoApi.csproj",
+              "RelativeDocumentMoniker": "MangoApi.csproj",
+              "ToolTip": "C:\\mangoapi\\MangoApi.csproj",
+              "RelativeToolTip": "MangoApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T14:52:01.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250515134222_initialcommit.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Migrations\\20250515134222_initialcommit.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250515134222_initialcommit.cs",
+              "ToolTip": "C:\\mangoapi\\Migrations\\20250515134222_initialcommit.cs",
+              "RelativeToolTip": "Migrations\\20250515134222_initialcommit.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowCkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:42:24.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250527145050_addedappartmentname.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Migrations\\20250527145050_addedappartmentname.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250527145050_addedappartmentname.cs",
+              "ToolTip": "C:\\mangoapi\\Migrations\\20250527145050_addedappartmentname.cs",
+              "RelativeToolTip": "Migrations\\20250527145050_addedappartmentname.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:50:51.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\UserModel.cs",
+              "RelativeDocumentMoniker": "MangoModels\\UserModel.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\UserModel.cs",
+              "RelativeToolTip": "MangoModels\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:32:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\UserResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "MangoModels\\UserResetPasswordRequest.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\UserResetPasswordRequest.cs",
+              "RelativeToolTip": "MangoModels\\UserResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:31:03.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRoleDto.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoModels\\UserRoleDto.cs",
+              "RelativeDocumentMoniker": "MangoModels\\UserRoleDto.cs",
+              "ToolTip": "C:\\mangoapi\\MangoModels\\UserRoleDto.cs",
+              "RelativeToolTip": "MangoModels\\UserRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:30:22.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\mangoapi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\mangoapi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:29:20.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\New folder\\MangoApi\\AppContext\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\mangoapi\\AppContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppContext\\AppDbContext.cs",
-              "ToolTip": "D:\\New folder\\MangoApi\\AppContext\\AppDbContext.cs",
+              "ToolTip": "C:\\mangoapi\\AppContext\\AppDbContext.cs",
               "RelativeToolTip": "AppContext\\AppDbContext.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADgvzIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:27:25.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:27:25.705Z"
             }
           ]
         }

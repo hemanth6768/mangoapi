@@ -370,4 +370,3 @@ C:\mangoapi\obj\Debug\net8.0\refint\MangoApi.dll
 C:\mangoapi\obj\Debug\net8.0\MangoApi.pdb
 C:\mangoapi\obj\Debug\net8.0\MangoApi.genruntimeconfig.cache
 C:\mangoapi\obj\Debug\net8.0\ref\MangoApi.dll
-C:\mangoapi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,20 +1,19 @@
 ﻿namespace MangoApi.MangoModels
 {
-    public class Order
+    public class OrderItemDetailDto
     {
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public string OrderId { get; set; }
         public string CustomerName { get; set; }
         public string CustomerEmail { get; set; }
         public string CustomerPhone { get; set; }
         public string CustomerAddress { get; set; }
-
-
-         
         public string CustomerAppartmentName { get; set; }
-
         public decimal TotalAmount { get; set; }
-        public string Status { get; set; } = "confirmed";
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public List<OrderItem> Items { get; set; } = new();
+        public string Status { get; set; }
+        public DateTime CreatedAt { get; set; }
+       
+        public string ProductName { get; set; }
+       
+        public int Quantity { get; set; }
     }
 }

@@ -50,6 +50,11 @@ namespace MangoApi.MangoService
             return await _orderRepository.GetAllOrdersAsync();
         }
 
+
+        public async Task<List<OrderItemDetailDto>> GetAllOrdersAsync1()
+        {
+            return await _orderRepository.GetAllOrdersAsync1();
+        }
         public async Task<Order> GetOrderByIdAsync(string id)
         {
             return await _orderRepository.GetOrderByIdAsync(id);

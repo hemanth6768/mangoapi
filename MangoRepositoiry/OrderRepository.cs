@@ -22,8 +22,42 @@ namespace MangoApi.MangoRepositoiry
 
         public async Task<List<Order>> GetAllOrdersAsync()
         {
+           
+
+
+
             return await _context.Orders.Include(o => o.Items).ToListAsync();
         }
+
+        public async Task<List<OrderItemDetailDto>> GetAllOrdersAsync1()
+        {
+            var orderWithItems = await (from o in _context.Orders
+                                        join oi in _context.OrderItems
+                                        on o.Id equals oi.OrderId
+                                        select new OrderItemDetailDto
+                                        {
+                                            OrderId = o.Id,
+                                            CustomerName = o.CustomerName,
+                                            CustomerEmail = o.CustomerEmail,
+                                            CustomerPhone = o.CustomerPhone,
+                                            CustomerAddress = o.CustomerAddress,
+                                            CustomerAppartmentName = o.CustomerAppartmentName,
+                                            TotalAmount = o.TotalAmount,
+                                            Status = o.Status,
+                                            CreatedAt = o.CreatedAt,
+                                            ProductName = oi.ProductName,
+                                            Quantity = oi.Quantity
+                                        }).ToListAsync();
+
+
+            return orderWithItems;
+
+            //return await _context.Orders.Include(o => o.Items).ToListAsync();
+        }
+
+
+
+
 
         public async Task<Order> GetOrderByIdAsync(string id)
         {
