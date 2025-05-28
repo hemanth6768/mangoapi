@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MangoApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250506064830_initial")]
-    partial class initial
+    [Migration("20250515134222_initialcommit")]
+    partial class initialcommit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

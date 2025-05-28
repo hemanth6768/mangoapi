@@ -7,8 +7,11 @@
         public string CustomerEmail { get; set; }
         public string CustomerPhone { get; set; }
         public string CustomerAddress { get; set; }
+
+        public string CustomerAppartmentName { get; set; }
+
         public decimal TotalAmount { get; set; }
-        public string Status { get; set; } = "Confirmed";
+        public string Status { get; set; } = "confirmed";
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public List<OrderItem> Items { get; set; } = new();
     }

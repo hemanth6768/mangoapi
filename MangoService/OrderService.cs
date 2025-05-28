@@ -22,6 +22,7 @@ namespace MangoApi.MangoService
                 CustomerEmail = orderRequest.CustomerInfo.Email,
                 CustomerPhone = orderRequest.CustomerInfo.Phone,
                 CustomerAddress = orderRequest.CustomerInfo.Address,
+                CustomerAppartmentName = orderRequest.CustomerInfo.AppartmentName,
                 TotalAmount = orderRequest.TotalAmount,
                 Items = orderRequest.Items.Select(item => new OrderItem
                 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MangoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c24a221377ff1b9188f3aacfa812123ba6fe440e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+208410a6305f067dc9cfef9670e7de88e14730db")]
 [assembly: System.Reflection.AssemblyProductAttribute("MangoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MangoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
