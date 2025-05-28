@@ -51,7 +51,7 @@ namespace MangoApi.Controllers
 
         [HttpGet]
 
-        public async Task<ActionResult<List<Order>>> GetOrders1()
+        public async Task<ActionResult<List<OrderItemDetailDto>>> GetOrders1()
         {
             var orders = await _orderService.GetAllOrdersAsync1();
             return Ok(orders);

@@ -122,21 +122,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "MangoRepositoiry\\IProductRepository.cs",
-              "ToolTip": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
-              "RelativeToolTip": "MangoRepositoiry\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T07:22:05.606Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -171,7 +158,7 @@
               "RelativeDocumentMoniker": "MangoModels\\OrderItemDetailDto.cs",
               "ToolTip": "C:\\mangoapi\\MangoModels\\OrderItemDetailDto.cs",
               "RelativeToolTip": "MangoModels\\OrderItemDetailDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T07:15:07.802Z",
               "EditorCaption": ""
@@ -200,6 +187,19 @@
               "ViewState": "AgIAACkAAAAAAAAAAIAwwDcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T14:45:17.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "MangoRepositoiry\\IProductRepository.cs",
+              "ToolTip": "C:\\mangoapi\\MangoRepositoiry\\IProductRepository.cs",
+              "RelativeToolTip": "MangoRepositoiry\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:22:05.606Z",
               "EditorCaption": ""
             },
             {

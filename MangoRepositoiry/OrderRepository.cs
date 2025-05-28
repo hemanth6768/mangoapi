@@ -31,29 +31,38 @@ namespace MangoApi.MangoRepositoiry
 
         public async Task<List<OrderItemDetailDto>> GetAllOrdersAsync1()
         {
-            var orderWithItems = await (from o in _context.Orders
-                                        join oi in _context.OrderItems
-                                        on o.Id equals oi.OrderId
-                                        select new OrderItemDetailDto
-                                        {
-                                            OrderId = o.Id,
-                                            CustomerName = o.CustomerName,
-                                            CustomerEmail = o.CustomerEmail,
-                                            CustomerPhone = o.CustomerPhone,
-                                            CustomerAddress = o.CustomerAddress,
-                                            CustomerAppartmentName = o.CustomerAppartmentName,
-                                            TotalAmount = o.TotalAmount,
-                                            Status = o.Status,
-                                            CreatedAt = o.CreatedAt,
-                                            ProductName = oi.ProductName,
-                                            Quantity = oi.Quantity
-                                        }).ToListAsync();
+            var result = await _context.Orders
+                .Include(o => o.Items)
+                .GroupBy(o => new
+                {
+                    o.Id,
+                    o.CustomerName,
+                    o.CustomerPhone,
+                    o.CustomerAppartmentName,
+                    o.CustomerAddress,
+                    o.TotalAmount,
+                    o.Status,
+                    o.CreatedAt
+                })
+                .Select(g => new OrderItemDetailDto
+                {
+                    OrderId = g.Key.Id.ToString(),
+                    CustomerName = g.Key.CustomerName,
+                    CustomerPhone = g.Key.CustomerPhone,
+                    CustomerAppartmentName = g.Key.CustomerAppartmentName,
+                    CustomerAddress = g.Key.CustomerAddress,
+                    TotalAmount = g.Key.TotalAmount,
+                    Status = g.Key.Status,
+                    CreatedAt = g.Key.CreatedAt,
+                    ProductName = string.Join(", ", g.SelectMany(o => o.Items)
+                                                     .Select(i => $"{i.ProductName} *{i.Quantity}")),
+                    Quantity = g.SelectMany(o => o.Items).Sum(i => i.Quantity)
+                })
+                .ToListAsync();
 
-
-            return orderWithItems;
-
-            //return await _context.Orders.Include(o => o.Items).ToListAsync();
+            return result;
         }
+
 
 
 
